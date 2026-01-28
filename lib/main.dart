@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Examen Flutter',
+      title: 'Examen Recupera Flutter',
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Examen'),
+          title: const Text('Mi primer app'),
         ),
         body: const Center(
           child: Text(
-            'Examen de Desarrollo Móvil',
+            'Hola FLutter',
             style: TextStyle(fontSize: 20),
           ),
         ),
